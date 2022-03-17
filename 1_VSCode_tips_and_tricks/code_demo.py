@@ -3,13 +3,13 @@
 import json
 
 
-def some_function(arg1: int, arg2: int):
-    print("Hello world")
+def some_function(var1: int, arg2: int):
     another_function("my_file.json", {})
-    if arg1 > arg2:
-        return arg1 + arg2
+    print("Hello world")
+    if var1 > arg2:
+        return var1 + arg2
     else:
-        return arg1 - arg2
+        return var1 - arg2
 
 
 def another_function(file_path: str, contents: dict):
